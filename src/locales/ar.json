@@ -1,9 +1,9 @@
 {
   "home": "الصفحة الرئيسية",
   "materials": "مواد",
-  "CurrencyInput":"إدخال العملة",
-  "PhoneNumber":"رقم الهاتف",
-  "placeholder":"أكتب هنا",
+  "CurrencyInput": "إدخال العملة",
+  "PhoneNumber": "رقم الهاتف",
+  "placeholder": "أكتب هنا",
   "greeting": "مرحبا!",
   "welcome": "مرحبا بكم في موقعنا!"
 }

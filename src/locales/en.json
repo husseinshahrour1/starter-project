@@ -1,9 +1,9 @@
 {
   "home": "Home",
   "materials": "Materials",
-  "CurrencyInput":"CurrencyInput",
-  "PhoneNumber":"PhoneNumber",
-  "placeholder":"Type Here",
+  "CurrencyInput": "CurrencyInput",
+  "PhoneNumber": "PhoneNumber",
+  "placeholder": "Type Here",
   "greeting": "Hello!",
   "welcome": "Welcome to our website!"
 }

@@ -1,4 +1,5 @@
-import { Form } from 'antd';
+import { Divider, Form } from 'antd';
+import AntCalendar from 'component/common/ant-calendar/ant-calendar';
 import CustomTable from 'component/common/ant-table/ant-table';
 import CurrencyInput from 'component/common/currency-input/currencyInput';
 import Loader from 'component/common/loader/loader';
@@ -22,6 +23,9 @@ export default function Materials() {
           <PhoneInput placeholder={t('placeholder')} />
         </Form.Item>
       </Form>
+      <Divider />
+      <AntCalendar />
+      <Divider />
       <CustomTable
         rowKey={'id'}
         columns={[
