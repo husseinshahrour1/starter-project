@@ -23,7 +23,7 @@ const EventModal = (props: Props) => {
   return (
     <>
       <Modal
-        title='Event title'
+        title={<h3>Event title</h3>}
         centered
         open={isModalOpen}
         onOk={handleOk}
