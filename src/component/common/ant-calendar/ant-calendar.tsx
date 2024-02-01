@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import type { Dayjs } from 'dayjs';
 import dayjs from 'dayjs';
 import { Alert, Calendar } from 'antd';
-import EventModal from './event-modal';
+import CalendarEventPopup from './CalendarEventPopup';
 
 const AntCalendar = () => {
   const [value, setValue] = useState(() => dayjs('2017-01-25'));
@@ -22,7 +22,7 @@ const AntCalendar = () => {
     <>
       <Alert message={`You selected date: ${selectedValue?.format('YYYY-MM-DD')}`} />
       <Calendar value={value} onSelect={onSelect} onPanelChange={onPanelChange} />
-      <EventModal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+      <CalendarEventPopup isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
     </>
   );
 };
